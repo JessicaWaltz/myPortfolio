@@ -2,7 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 //import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
 import './App.css';
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
