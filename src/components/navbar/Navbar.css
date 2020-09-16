@@ -1,0 +1,19 @@
+.navbar-main ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar-main ul li {
+    float: left;
+  }
+  
+  .navbar-main ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
