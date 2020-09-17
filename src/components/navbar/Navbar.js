@@ -9,16 +9,16 @@ class Navbar extends Component{
         return(
             <div className="navbar-main">
                 <ul>
-                        <li className="nav-title">
+                        <li className="nav-title nav-item">
                             Jessica's Portfolio 
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             Resume
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             projects
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             info
                         </li>
                 </ul>
