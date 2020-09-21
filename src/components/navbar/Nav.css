@@ -1,0 +1,53 @@
+.name { 
+    grid-area: nam; 
+    background-color: white;
+    padding-left: 1em;
+    padding-top: .25em;
+    font-size: 5em;
+}
+.info h2{
+    margin-bottom: 0;
+}
+.info { 
+    grid-area: inf;
+    text-align: center;
+    background-color: white;
+}
+.projects { 
+    grid-area: pro;
+    padding: 1em;
+    background-color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'nam nam nam nam inf inf'
+      'nam nam nam nam inf inf'
+      'pro pro pro pro pro pro';
+    background-color: rgba(46, 47, 48,1);
+  }
+.px-2{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.dont-link:focus{
+    outline: none;
+}
+.dont-link:link {
+    text-decoration: none;
+}
+.dont-link:visited {
+    text-decoration: none;
+}
+.dont-link:hover {
+    text-decoration: none;
+}
+  
+.dont-link:active {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url(../../fonts/Myfont-Regular.otf);
+}
+  
