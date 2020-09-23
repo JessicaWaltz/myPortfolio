@@ -1,6 +1,5 @@
 .name { 
     grid-area: nam; 
-    background-color: white;
     padding-left: 1em;
     padding-top: .25em;
     font-size: 5em;
@@ -11,12 +10,10 @@
 .info { 
     grid-area: inf;
     text-align: center;
-    background-color: white;
 }
 .projects { 
     grid-area: pro;
     padding: 1em;
-    background-color: white;
 }
 .grid-container {
     display: grid;
@@ -24,7 +21,7 @@
       'nam nam nam nam inf inf'
       'nam nam nam nam inf inf'
       'pro pro pro pro pro pro';
-    background-color: rgba(46, 47, 48,1);
+    border-bottom: 5px black;
   }
 .px-2{
     padding-left: .5rem;

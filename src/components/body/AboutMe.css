@@ -1,0 +1,67 @@
+.download-btn:link, .download-btn:visited {
+  background-color: lightseagreen;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.download-btn:hover, .download-btn:active {
+  background-color: rgb(39, 206, 197);
+}
+.AboutMe-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.AboutMe-list > li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.AboutMe-title { 
+    grid-area: tit; 
+    font-size: 2.5em;
+}
+.AboutMe-deg { 
+    grid-area: deg; 
+}
+.AboutMe-info { 
+    grid-area: ami; 
+}
+.AboutMe-work{ 
+    grid-area: wor; 
+}
+.AboutMe-exp { 
+    grid-area: exp; 
+}
+.AboutMe-download { 
+    grid-area: dow; 
+}
+.AboutMe-box{
+    display: grid;
+    grid-template-areas:
+    'tit tit tit tit tit'
+    'ami ami ami ami ami'
+    'ami ami ami ami ami';
+    grid-area: box;
+    border-radius: 10px;
+
+}
+.AboutMe-conatiner {
+    display: grid;
+    grid-template-areas:
+    'box box box box box'
+    'box box box box box'
+    'deg deg deg exp exp'
+    'wor wor wor exp exp'
+    'dow dow dow dow dow';
+    padding: 100px 100px 0px 100px;
+    background-color: lightblue;
+    grid-gap: 10px;
+  }
+.AboutMe-conatiner > div{
+    background-color: white;
+    padding: 20px 20px;
+}
