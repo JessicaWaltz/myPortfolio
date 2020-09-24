@@ -27,7 +27,7 @@ class Nav extends Component{
                         <span>
                             <span className="px-2">•</span>
                             <span>
-                                <a className="gitlab dont-link" 
+                                <a className="github dont-link" 
                                 href="https://github.com/JessicaWaltz">Github</a>
                             </span>
                         </span>
