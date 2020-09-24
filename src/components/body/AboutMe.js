@@ -4,13 +4,16 @@ import "./AboutMe.css";
 class AboutMe extends Component{
     render(){
         return(
-            <div className="AboutMe-conatiner">
+            <div className="AboutMe-conatiner" id="AboutMe">
                 <div className="AboutMe-box">
                     <div className="AboutMe-title">
                         About me
                     </div>
                     <div className="AboutMe-info">
-                        Hello! My name is Jessica Waltz I am a full stack developer. Graduated from WSU ...React.... favor front end.... perfectly capable of backend....
+                    Hello and welcome to my portfolio! My name is Jessica Waltz and I am a full stack developer 
+                    from Washington State University. I enjoy front end work the most. I use React in my projects 
+                    with Spring boot for backend. Check out my github for my project progress, I will be posting 
+                    some of them on here in the near future. 
                     </div>
                 </div>
                 <div className="AboutMe-deg">
@@ -83,7 +86,7 @@ class AboutMe extends Component{
                     </ul>
                 </div>
                 <div className="AboutMe-download">
-                    <a href="../../doc/reusme.pdf" className="download-btn" download>
+                    <a href="../../doc/resume.pdf" className="download-btn" download>
                         Download Resume
                     </a>
                 </div>

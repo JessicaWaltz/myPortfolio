@@ -21,21 +21,14 @@ class Nav extends Component{
                         <span>
                             <span>
                                 <a className="github dont-link" 
-                                href="/#" >About me</a>
+                                href="/#AboutMe" >About me</a>
                             </span>
                         </span>
                         <span>
                             <span className="px-2">•</span>
                             <span>
                                 <a className="gitlab dont-link" 
-                                href="#">Gitlab</a>
-                            </span>
-                        </span>
-                        <span>
-                            <span className="px-2">•</span>
-                            <span>
-                                <a className="github dont-link" 
-                                href="#" >Github</a>
+                                href="https://github.com/JessicaWaltz">Github</a>
                             </span>
                         </span>
                         <span>
@@ -49,9 +42,9 @@ class Nav extends Component{
                 <div className="projects">
                 <span className="font-bold text-sm">Projects</span>
                     <span class="px-2">•</span>
-                    <span><a class="dont-link" href="/#draggable" target="_blank">draggable</a>, </span>
-                    <span><a class="dont-link" href="/#desktop-buddy" target="_blank">Desktop buddy</a>, </span>
-                    <span><a class="dont-link" href="/#" target="_blank">POST GET</a>, </span>
+                    <span><a class="dont-link" href="/#" target="_blank">Project 1</a>, </span>
+                    <span><a class="dont-link" href="/#" target="_blank">Project 2</a>, </span>
+                    <span><a class="dont-link" href="/#" target="_blank">Project 3</a>, </span>
                     <span><a class="dont-link" href="/#" target="_blank">Project 4</a>, </span>
                     <span><a class="dont-link" href="/#" target="_blank">Project 5</a></span>
                 </div>
