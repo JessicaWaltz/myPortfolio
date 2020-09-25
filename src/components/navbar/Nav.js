@@ -41,12 +41,12 @@ class Nav extends Component{
                 </div>
                 <div className="projects">
                 <span className="font-bold text-sm">Projects</span>
-                    <span class="px-2">•</span>
-                    <span><a class="dont-link" href="/#" target="_blank">Project 1</a>, </span>
-                    <span><a class="dont-link" href="/#" target="_blank">Project 2</a>, </span>
-                    <span><a class="dont-link" href="/#" target="_blank">Project 3</a>, </span>
-                    <span><a class="dont-link" href="/#" target="_blank">Project 4</a>, </span>
-                    <span><a class="dont-link" href="/#" target="_blank">Project 5</a></span>
+                    <span className="px-2">•</span>
+                    <span><a className="dont-link" href="/#" target="_blank">Project 1</a>, </span>
+                    <span><a className="dont-link" href="/#" target="_blank">Project 2</a>, </span>
+                    <span><a className="dont-link" href="/#" target="_blank">Project 3</a>, </span>
+                    <span><a className="dont-link" href="/#" target="_blank">Project 4</a>, </span>
+                    <span><a className="dont-link" href="/#" target="_blank">Project 5</a></span>
                 </div>
             </div>
         )

@@ -86,9 +86,8 @@ class AboutMe extends Component{
                     </ul>
                 </div>
                 <div className="AboutMe-download">
-                    <a href="../../doc/resume.pdf" className="download-btn" download>
-                        Download Resume
-                    </a>
+                    
+                    <a className="download-btn" href={require("../../doc/resume.pdf")} download="resume.pdf">Download Resume</a>  
                 </div>
             </div>
         )
@@ -96,27 +95,7 @@ class AboutMe extends Component{
 }
 export default AboutMe;
 
-/**
- * tit = title
- * emp = empty
- * inf = about me info interests
- * deg = degree info
- * wor = work info
- * exp = technologies and years of experience with them
- * dow = download button
- * tit tit emp emp emp
- * inf inf inf inf inf
- * inf inf inf inf inf 
- * deg deg deg exp exp
- * wor wor wor exp exp
- * wor wor wor exp exp
- * dow emp emp emp emp
- * 
- * .w3-animate-bottom {
-	position: relative;
-	animation: animatebottom 0.4s
-}
-
+/** 
 @keyframes animatebottom {
 	from {
 		bottom: -300px;
