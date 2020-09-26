@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import { Link } from 'react-router-dom';
 import "./AboutMe.css";
 class AboutMe extends Component{
     render(){
