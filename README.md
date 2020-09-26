@@ -1,1 +1,1 @@
-portfolio available at https://jessicawaltzsportfolio.herokuapp.com/
+portfolio live at https://jessicawaltzsportfolio.herokuapp.com/
