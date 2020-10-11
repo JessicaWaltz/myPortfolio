@@ -66,13 +66,13 @@ class AboutMe extends Component{
                 </div>
                 <div className="AboutMe-exp"> 
                     <ul className="AboutMe-list">
-                        <li>JavaScript - 3 years</li>
+                        <li>JavaScript - 5 years</li>
                         <li>Typescript - 2 years</li>
                         <li>Java - 4 years</li>
                         <li>C - 3 years</li>
                         <li>C++ - 2 years</li>
-                        <li>CSS - 3 years</li>
-                        <li>HTML - 3 years</li>
+                        <li>CSS - 5 years</li>
+                        <li>HTML - 5 years</li>
                         <li>JSP - 1 year</li>
                         <li>React - 2 years</li>
                         <li>Python - 5 years</li>
