@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class Proj1 extends Component{
     render(){
         return(
-            <div className="Proj1-conatiner" id="Proj1">
+            <div className="Proj1-conatiner Proj1" id="Proj1">
                 <div className="name">
                     Pokemon Battle Strategy
                 </div>

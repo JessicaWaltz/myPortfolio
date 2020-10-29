@@ -57,7 +57,6 @@
     'wor wor wor exp exp'
     'dow dow dow dow dow';
     padding: 100px 100px 0px 100px;
-    
     grid-gap: 10px;
   }
 @media only screen and (max-width: 800px) {

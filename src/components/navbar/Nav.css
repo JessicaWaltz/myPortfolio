@@ -14,15 +14,31 @@
 .projects { 
     grid-area: pro;
     padding: 1em;
+    border-bottom: 5px solid black;
 }
-.grid-container {
+.nav-grid-container {
     display: grid;
     grid-template-areas:
       'nam nam nam nam inf inf'
       'nam nam nam nam inf inf'
       'pro pro pro pro pro pro';
-    border-bottom: 5px black;
-  }
+    background-color: white;
+
+}
+.invisible{
+    display: none;
+}
+.span-right{
+    position: absolute;
+    right: 5%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
 .px-2{
     padding-left: .5rem;
     padding-right: .5rem;

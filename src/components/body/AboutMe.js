@@ -4,7 +4,7 @@ import "./AboutMe.css";
 class AboutMe extends Component{
     render(){
         return(
-            <div className="AboutMe-conatiner" id="AboutMe">
+            <div className="AboutMe-conatiner content" id="AboutMe">
                 <div className="AboutMe-box">
                     <div className="AboutMe-title">
                         About me
