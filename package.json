@@ -6,12 +6,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "fetch": "^1.1.0",
+    "immutable": "^3.8.1",
+    "proptypes": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-download-link": "^2.3.0",
+    "react-redux": "^4.4.10",
     "react-scripts": "3.4.3",
     "react-swf": "^0.12.1",
-    "react-xml-parser": "^1.1.6"
+    "react-xml-parser": "^1.1.6",
+    "redux": "^3.5.2",
+    "superagent": "^2.2.0",
+    "superagent-as-promised": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
