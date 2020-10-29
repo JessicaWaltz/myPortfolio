@@ -15,6 +15,7 @@
     grid-area: pro;
     padding: 1em;
     border-bottom: 5px solid black;
+    z-index: 1;
 }
 .nav-grid-container {
     display: grid;
@@ -32,6 +33,37 @@
     position: absolute;
     right: 5%;
 }
+.animate{
+    animation: fadeIn ease 20s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
 .sticky {
     position: fixed;
     top: 0;

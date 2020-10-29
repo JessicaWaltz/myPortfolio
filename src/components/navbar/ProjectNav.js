@@ -13,15 +13,17 @@ class ProjNav extends Component{
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
                 onRight.classList.remove("invisible");
+                onRight.classList.add("animate");
             } else {
                 navbar.classList.remove("sticky");
                 onRight.classList.add("invisible");
+                onRight.classList.remove("animate");
             }
         }
     }
     render(){
         return(
-            <div className="projects" id="projects">
+            <div className="projects animate__animated animate__fadeInDown" id="projects">
                 <span className="font-bold text-sm">Projects</span>
                 <span className="px-2">•</span>
                 <span><a className="dont-link" href="/#Proj1">Project 1</a>, </span>

@@ -6,6 +6,7 @@ import AboutMe from './components/body/AboutMe.js';
 import Nav from "./components/navbar/Nav.js";
 import Proj1 from "./components/body/Project1/Proj1.js";
 import ProjNav from "./components/navbar/ProjectNav.js";
+import "animate.css";
 
 function App() {
   return (

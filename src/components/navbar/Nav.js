@@ -4,7 +4,7 @@ import "./Nav.css";
 class Nav extends Component{
     render(){
         return(
-            <div className="nav-grid-container">
+            <div className="nav-grid-container animate__animated animate__fadeInDown">
                 <div className="name">
                     Welcome
                 </div>

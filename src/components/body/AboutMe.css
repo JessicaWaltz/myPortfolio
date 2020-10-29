@@ -58,6 +58,7 @@
     'dow dow dow dow dow';
     padding: 100px 100px 0px 100px;
     grid-gap: 10px;
+    z-index: -1;
   }
 @media only screen and (max-width: 800px) {
     .AboutMe-conatiner {
