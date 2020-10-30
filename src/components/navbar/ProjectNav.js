@@ -23,7 +23,7 @@ class ProjNav extends Component{
     }
     render(){
         return(
-            <div className="projects animate__animated animate__fadeInDown" id="projects">
+            <div className="projects" id="projects">
                 <span className="font-bold text-sm">Projects</span>
                 <span className="px-2">•</span>
                 <span><a className="dont-link" href="/#Proj1">Project 1</a>, </span>
