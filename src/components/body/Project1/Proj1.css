@@ -1,0 +1,29 @@
+.Proj1-conatiner{
+    display: grid;
+    grid-template-areas:
+    'p1n p1n p1n p1n'
+    'p1i p1i p1d p1d'
+    'p1i p1i p1d p1d'
+    'p1b p1b p1b p1b';
+    padding: 100px 100px 0px 100px;
+    grid-gap: 10px;
+    z-index: -1;
+}
+.proj1-name-container{
+    grid-area: p1n;
+}
+.proj1-desc-container{
+    grid-area: p1d;
+}
+.proj1-visual-conatainer{
+    grid-area: p1i;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "a a"
+                         "a a";
+    grid-gap: 10px;
+    justify-content: center;
+}
+.proj1-img{
+    width: 25%;
+} 

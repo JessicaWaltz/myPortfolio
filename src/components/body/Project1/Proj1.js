@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./Proj1.css";
+import img01 from "../../../img/Proj1-img01.png";
+import img02 from "../../../img/Proj1-img02.png";
+import img03 from "../../../img/Proj1-img03.png";
 //test
 class Proj1 extends Component{
     render(){
@@ -13,7 +16,13 @@ class Proj1 extends Component{
                     With this data the code will calculate the best type advantage to take in order to combat 
                     the selected Pokemon. It also calculates the types the user should avoid.
                 </div>
-                <div className="proj1-visual-conatainer">Add visual and have link to page it is on</div>
+                <div className="proj1-visual-conatainer animate__animated animate__fadeInUp">
+                    <div className="proj1-visual-pics">
+                        <img className="proj1-img" src={img01} alt="pic 1"/>
+                        <img className="proj1-img" src={img02} alt="pic 2"/>
+                        <img className="proj1-img" src={img03} alt="pic 3"/>
+                    </div>
+                </div>
                 <div className="proj1-link-container">visit</div>
             </div>
         )
