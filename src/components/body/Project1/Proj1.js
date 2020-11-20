@@ -9,21 +9,22 @@ class Proj1 extends Component{
         return(
             <div className="Proj1-conatiner Proj1" id="Proj1">
                 <div className="proj1-name-container project-name">
-                    Pokemon Battle Strategy
+                    World Of Dogs
                 </div>
                 <div className="proj1-desc-container project-description">
-                    The Pokemon Battle Strategy Project uses the (link)pokeApi(link). 
-                    With this data the code will calculate the best type advantage to take in order to combat 
-                    the selected Pokemon. It also calculates the types the user should avoid.
+                    World of dogs is an application that holds information about many dogs such as 
+                    their name, breed, size, owner, and a description.This application has multiple 
+                    routes with the ability to display all the dogs, sort the dogs by their information,
+                    add new dogs, edit/delete old dogs, and return a random dog from the list. 
+                    This application uses Redux to store the state of all the dogs in the list, in the future 
+                    the dogs will be added to a database so the dog list can be permanently updated and doesnt revert
+                    back to its initial state.
                 </div>
                 <div className="proj1-visual-conatainer animate__animated animate__fadeInUp">
                     <div className="proj1-visual-pics">
-                        <img className="proj1-img" src={img01} alt="pic 1"/>
-                        <img className="proj1-img" src={img02} alt="pic 2"/>
-                        <img className="proj1-img" src={img03} alt="pic 3"/>
                     </div>
                 </div>
-                <div className="proj1-link-container">visit</div>
+                <div className="proj1-link-container"><a className="dont-link" href="http://world--of--dogs.herokuapp.com/">Visit Site</a></div>
             </div>
         )
     }
