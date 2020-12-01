@@ -6,6 +6,7 @@ import img03 from "../../../img/Proj1-img03.png";
 //test
 class Proj1 extends Component{
     render(){
+        //Add background from proj1 and a link to the project 
         return(
             <div className="Proj1-conatiner Proj1" id="Proj1">
                 <div className="proj1-name-container project-name">
@@ -23,8 +24,12 @@ class Proj1 extends Component{
                     the dogs will be added to a database so the dog list can be permanently updated and doesnt revert
                     back to its initial state.</div>
                     <div className="proj1-desc-title" id="what-is-planned">What is Planned:</div>
-                    <div>In the future the dogs will be added to a database so the dog list can be permanently updated 
-                    and doesnt revert back to its initial state when the apllication is refreshed.</div>
+                    <ul>
+                    <li>Introduce Backend: In the future the dogs will be added to a database so the dog list can be permanently updated 
+                    and doesnt revert back to its initial state when the apllication is refreshed.</li>
+                    <li>Better Sorting: Current sorting method is repetitive and can be simplified</li>
+                    <li>Add Pictures: Addition of images for the dog cards would improve the applications overall look</li>
+                    </ul>
                 </div>
                 <div className="proj1-visual-conatainer animate__animated animate__fadeInUp">
                     <div className="proj1-visual-pics">

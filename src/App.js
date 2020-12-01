@@ -5,6 +5,7 @@ import './App.css';
 import AboutMe from './components/body/AboutMe.js';
 import Nav from "./components/navbar/Nav.js";
 import Proj1 from "./components/body/Project1/Proj1.js";
+import Proj2 from "./components/body/Project2/Proj2.js"
 import ProjNav from "./components/navbar/ProjectNav.js";
 import "animate.css";
 
@@ -15,6 +16,7 @@ function App() {
       <ProjNav/>
       <AboutMe/>
       <Proj1/>
+      <Proj2/>
     </div>
   );
 }
