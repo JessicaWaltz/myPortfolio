@@ -26,7 +26,7 @@ class Proj2 extends Component{
                     <div className="Proj2-desc-title" id="what-is-planned">What is Planned:</div>
                     <ul>
                     <li>In the future the dogs will be added to a database so the dog list can be permanently updated 
-                    and doesnt revert back to its initial state when the apllication is refreshed.</li>
+                    and doesnt revert back to its initial state when the apllication is refreshed. </li>
                     <li></li>
                     </ul>
                 </div>
