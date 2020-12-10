@@ -8,7 +8,9 @@ import Proj1 from "./components/body/Project1/Proj1.js";
 import Proj2 from "./components/body/Project2/Proj2.js"
 import ProjNav from "./components/navbar/ProjectNav.js";
 import "animate.css";
-
+/* Would like to change components here to be big boxes where if clicked on
+*  it takes you to A page about the project.
+*/ 
 function App() {
   return (
     <div>
